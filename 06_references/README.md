@@ -1,14 +1,27 @@
-# Визуальная библиотека
+# Визуальные референсы — Агнор
 
-## Правила
-1. Каждый референс имеет ID и карточку: `CHAR-...`, `LOC-...`, `ITEM-...`.
-2. У каждого изображения есть назначение: утверждённый эталон / черновой концепт / альтернативная версия.
-3. Эталоны персонажей: полный рост в А-позе, фронт/профиль/спина, портрет, эмоции, одежда и ключевые детали.
-4. Для локаций: панорама, карта/план, ключевые ориентиры, материалы и время суток.
-5. Для предметов: нейтральный фон, размеры/масштаб, несколько ракурсов.
-6. Имя файла: `CHAR-AGNOR__a-pose__front__v01.png`, `LOC-ZEON__overview__v01.png` и т. п.
-7. Внешность и одежда не должны меняться между главами без сценарного объяснения.
+У каждого из 19 персонажей есть раздел с полным исходным описанием внешности и ссылкой на каноническую карточку. Ни одна иллюстрация не подменена сгенерированным изображением.
 
-Встроенные иллюстрации из DOCX — **предварительные ориентиры**, не утверждённые новые генерации. В GitHub PNG ещё не загружены.
+| Персонаж | Референс | Встроенная иллюстрация в DOCX |
+|---|---|---|
+| Агнор | [CHAR-AGNOR](characters/CHAR-AGNOR/README.md) | Отсутствует |
+| Таня | [CHAR-TANYA](characters/CHAR-TANYA/README.md) | Есть, извлечена в PNG |
+| Сергей | [CHAR-SERGEY](characters/CHAR-SERGEY/README.md) | Есть, извлечена в PNG |
+| Артём | [CHAR-ARTYOM](characters/CHAR-ARTYOM/README.md) | Есть, извлечена в PNG |
+| Алиса | [CHAR-ALISA](characters/CHAR-ALISA/README.md) | Есть, извлечена в PNG |
+| Таумиэль | [CHAR-TAUMIEL](characters/CHAR-TAUMIEL/README.md) | Есть, извлечена в PNG |
+| Олег | [CHAR-OLEG](characters/CHAR-OLEG/README.md) | Есть, извлечена в PNG |
+| Нихиль | [CHAR-NIHIL](characters/CHAR-NIHIL/README.md) | Есть, извлечена в PNG |
+| Сильви | [CHAR-SYLVI](characters/CHAR-SYLVI/README.md) | Есть, извлечена в PNG |
+| Полина | [CHAR-POLINA](characters/CHAR-POLINA/README.md) | Есть, извлечена в PNG |
+| Сариэль | [CHAR-SARIEL](characters/CHAR-SARIEL/README.md) | Есть, извлечена в PNG |
+| Галгалиэль | [CHAR-GALGALIEL](characters/CHAR-GALGALIEL/README.md) | Есть, извлечена в PNG |
+| Эфиль | [CHAR-EPHIL](characters/CHAR-EPHIL/README.md) | Есть, извлечена в PNG |
+| Святогор | [CHAR-SVYATOGOR](characters/CHAR-SVYATOGOR/README.md) | Есть, извлечена в PNG |
+| Рагнар Мутабилис | [CHAR-RAGNAR](characters/CHAR-RAGNAR/README.md) | Есть, извлечена в PNG |
+| Боря | [CHAR-BORYA](characters/CHAR-BORYA/README.md) | Отсутствует |
+| Эрия | [CHAR-ERIA](characters/CHAR-ERIA/README.md) | Отсутствует |
+| Эйгон | [CHAR-AEGON](characters/CHAR-AEGON/README.md) | Отсутствует |
+| Кларк Вайт | [CHAR-CLARK](characters/CHAR-CLARK/README.md) | Отсутствует |
 
-Большие финальные PNG/PSD могут потребовать Git LFS или внешнего хранилища. Не добавлять тысячи промежуточных генераций в историю Git.
+**Извлечены 14 оригинальных PNG.** Они подготовлены в отдельном ZIP, но **бинарные PNG ещё не находятся в GitHub**. В карточках указаны предназначенные имена файлов; не считать их действительными ссылками. Иллюстрации в документах — концептуальные изображения, не утверждённые А-позы.
